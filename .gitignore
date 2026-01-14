@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+__pycache__/
+
+# Logs
+*.log
+etl_pipeline.log
+
+# CSV Data Files (exclude large datasets)
+datasets/*.csv
+backend/datasets/*.csv
+
+# Keep data dictionaries if needed
+!datasets/*dictionary.csv
+
+# System
+.DS_Store
+.env.production
+
+# Build files
+frontend/build/
+frontend/node_modules/
+
+images/desktop.ini
+images/Flight_Performance_Dashboard_2024.twbx
